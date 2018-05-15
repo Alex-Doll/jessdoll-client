@@ -1,0 +1,35 @@
+.app-header {
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Baskerville", serif;
+    color: black;
+}
+
+.app-header a:hover {
+    opacity: 0.50;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.header-content header {
+    font-size: 36px;
+}
+
+.header-content nav {
+    display: flex;
+    list-style-type: none;
+    padding: 10px 0px;
+}
+
+.header-content a,
+.header-content a:link,
+.header-content a:visited {
+    margin: 0 0;
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+}
